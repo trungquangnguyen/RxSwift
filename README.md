@@ -1,6 +1,6 @@
 # RxSwift
-This repo for test rxswift
 Playground with lib:
+
 https://github.com/segiddins/ThisCouldBeUsButYouPlaying/tree/master/bin
 https://medium.com/@_achou/making-a-playground-using-rxswift-81d8377bd239#.vkoroyfh6
 

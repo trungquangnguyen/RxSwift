@@ -3,16 +3,16 @@ This repo for test rxswift
 
 # Observable Sequences
 exampleOf("just") {
+
     let observable = Observable.just("Hello, world!")
-    
     observable.subscribe { (event: Event<String>) in
         print(event)
     }
 }
 
 exampleOf("of") {
+
     let observable = Observable.of(1, 2, 3)
-    
     observable.subscribe {
         print($0)
     }
@@ -24,6 +24,7 @@ exampleOf("of") {
 }
 
 exampleOf("toObservable") {
+
     let disposeBag = DisposeBag()
     
     [1, 2, 3].toObservable()
@@ -40,6 +41,7 @@ exampleOf("toObservable") {
 }
 
 exampleOf("error") {
+
     enum Error: ErrorType {
         case Test
     }

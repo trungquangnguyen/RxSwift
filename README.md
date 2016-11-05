@@ -7,12 +7,16 @@ https://medium.com/@_achou/making-a-playground-using-rxswift-81d8377bd239#.vkoro
 
 #Common Patterns
 Observer
+
 Iterator
 
 #Lifecycle of an Observable Sequence
 .Next
+
 .Error
+
 .Complete
+
 .dispose()/DisposeBag()
 
 # Observable Sequences

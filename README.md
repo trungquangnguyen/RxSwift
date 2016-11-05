@@ -5,11 +5,11 @@ https://github.com/segiddins/ThisCouldBeUsButYouPlaying/tree/master/bin
 
 https://medium.com/@_achou/making-a-playground-using-rxswift-81d8377bd239#.vkoroyfh6
 
-Common Patterns
+#Common Patterns
 Observer
 Iterator
 
-Lifecycle of an Observable Sequence
+#Lifecycle of an Observable Sequence
 .Next
 .Error
 .Complete
